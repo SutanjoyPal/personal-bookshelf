@@ -1,0 +1,33 @@
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 10vw;
+}
+
+.top .right {
+    margin-left: 23vw;
+}
+
+.card-container {
+    width: 100%;
+    margin-top: 3rem;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8vw;
+}
+
+.card {
+    border: 2px solid black;
+    width: 200px;
+    height: 280px;
+    margin: 0.7rem;
+
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
